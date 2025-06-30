@@ -1,1 +1,8 @@
-
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px double red;
+    padding: 5px 5px;
+    background-color: beige;
+}
