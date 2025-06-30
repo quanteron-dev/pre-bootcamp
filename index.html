@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page{
+            font-style: italic;
+            font-weight: bold;
+        }
+        img{
+            height: 400px;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <h1 class="page">
+            This is a simple page
+        </h1>
+        <h2 id="change">change</h2>
+    </header>
+    <main >
+        <img src="cricket.jpg" alt="England Batter Baristaw">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aperiam maiores sed magni doloribus quas saepe! Cupiditate reiciendis fugit commodi? Eum suscipit fuga, eveniet accusamus quisquam dolor nemo corporis voluptatem!</p>
 
+        <button id="button" >click</button>
+    </main>
+    <script>
+         
+            document.getElementById('button').addEventListener("click",()=>{
+                document.getElementById('change').innerText="hello world"
+            })
+        
+    </script>
+</body>
+</html>
